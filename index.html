@@ -130,7 +130,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="POST" data-netlify="true">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Nombre</label>
@@ -148,6 +148,7 @@
 								<ul class="actions">
 									<li><input type="submit" value="Enviar mensaje" /></li>
 								</ul>
+								<div data-netlify-recaptcha="true"></div>
 							</form>
 						</section>
 						<section class="split contact">
